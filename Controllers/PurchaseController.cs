@@ -28,7 +28,7 @@ namespace TicketHub.Controllers
                 return BadRequest(ModelState);
             }
             
-            string queueName = "purchase";
+            string queueName = "ticketqueue";
             string? connectionString = _configuration["AzureConnectionString"];
 
             if (String.IsNullOrEmpty(connectionString))
