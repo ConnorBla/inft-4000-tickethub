@@ -19,7 +19,8 @@ namespace TicketHub.Controllers
         }
 
 
-        public async Task<IActionResult> Post(CustomerPurchase purchase)
+        public async Task<IActionResult> Post()
+        //public async Task<IActionResult> Post(CustomerPurchase purchase)
         {
 
             if (!ModelState.IsValid)
@@ -37,8 +38,8 @@ namespace TicketHub.Controllers
 
             QueueClient qc = new QueueClient(connectionString, queueName);
 
-            string message = JsonSerializer.Serialize(purchase);
-            //string message = "TESTING FROM API!";
+            //string message = JsonSerializer.Serialize(purchase);
+            string message = "TESTING FROM API!";
 
 
             await qc.SendMessageAsync(message);
