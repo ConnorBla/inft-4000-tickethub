@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "c+jO31QjRR1jhXb1z0hZk6LINalE8SG6fOMNd8rjFfQ=",
+  "Source": "TicketHub",
+  "BasePath": "_content/TicketHub",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "TicketHub.Controllers.PurchaseController",
+    "Method": "Post",
+    "RelativePath": "api/Purchase",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchase",
+        "Type": "TicketHub.Models.CustomerPurchase",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
